@@ -1,0 +1,3742 @@
+[
+  {
+    "Timestamp": "2025-09-25 20:35:58.689950",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "150.249.46.14",
+    "SrcPort": 6881,
+    "DstPort": 12199,
+    "FlowDuration": 0.003527
+  },
+  {
+    "Timestamp": "2025-09-25 20:35:58.863907",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "150.249.46.14",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 12199,
+    "DstPort": 6881,
+    "FlowDuration": 0.001759
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:00.379696",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "18.211.211.115",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 443,
+    "DstPort": 56251,
+    "FlowDuration": 0.002317
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:00.427342",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "18.211.211.115",
+    "SrcPort": 56251,
+    "DstPort": 443,
+    "FlowDuration": 0.001891
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:00.586741",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "43.175.236.102",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 443,
+    "DstPort": 56245,
+    "FlowDuration": 0.001932
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:00.586805",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "43.175.236.102",
+    "SrcPort": 56245,
+    "DstPort": 443,
+    "FlowDuration": 0.004866
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:01.374512",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "18.211.211.115",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 443,
+    "DstPort": 56249,
+    "FlowDuration": 0.002891
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:01.388988",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "18.211.211.115",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 443,
+    "DstPort": 56250,
+    "FlowDuration": 0.001411
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:01.391043",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "18.211.211.115",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 443,
+    "DstPort": 56248,
+    "FlowDuration": 0.001352
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:01.427475",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "18.211.211.115",
+    "SrcPort": 56249,
+    "DstPort": 443,
+    "FlowDuration": 0.002915
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:01.443457",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "18.211.211.115",
+    "SrcPort": 56248,
+    "DstPort": 443,
+    "FlowDuration": 0.001935
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:01.443457",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "18.211.211.115",
+    "SrcPort": 56250,
+    "DstPort": 443,
+    "FlowDuration": 0.003938
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:01.788151",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "95.131.149.114",
+    "SrcPort": 65406,
+    "DstPort": 6881,
+    "FlowDuration": 0.003255
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:02.083023",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "95.131.149.114",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 6881,
+    "DstPort": 65406,
+    "FlowDuration": 0.002767
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:02.083615",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "95.131.149.114",
+    "SrcPort": 65406,
+    "DstPort": 6881,
+    "FlowDuration": 0.004169
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:02.361836",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "95.131.149.114",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 6881,
+    "DstPort": 65406,
+    "FlowDuration": 0.002215
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:02.367283",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "18.211.211.115",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 443,
+    "DstPort": 56247,
+    "FlowDuration": 0.001757
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:02.389543",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "43.175.236.102",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 443,
+    "DstPort": 56267,
+    "FlowDuration": 0.001744
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:02.389615",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "43.175.236.102",
+    "SrcPort": 56267,
+    "DstPort": 443,
+    "FlowDuration": 0.003672
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:02.422728",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "18.211.211.115",
+    "SrcPort": 56247,
+    "DstPort": 443,
+    "FlowDuration": 0.003196
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:02.805075",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "81.171.17.183",
+    "SrcPort": 56312,
+    "DstPort": 7511,
+    "FlowDuration": 0.002172
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.124957",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "81.171.17.183",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 7511,
+    "DstPort": 56312,
+    "FlowDuration": 0.002113
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.125277",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "81.171.17.183",
+    "SrcPort": 56312,
+    "DstPort": 7511,
+    "FlowDuration": 0.005779
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.125671",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "81.171.17.183",
+    "SrcPort": 56312,
+    "DstPort": 7511,
+    "FlowDuration": 0.008385
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.322339",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "18.211.14.81",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 443,
+    "DstPort": 56273,
+    "FlowDuration": 0.003115
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.322339",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "18.211.14.81",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 443,
+    "DstPort": 56273,
+    "FlowDuration": 0.006121
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.322339",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "18.211.14.81",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 443,
+    "DstPort": 56273,
+    "FlowDuration": 0.009117
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.322512",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "18.211.14.81",
+    "SrcPort": 56273,
+    "DstPort": 443,
+    "FlowDuration": 0.011947
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.378235",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "140.82.112.21",
+    "SrcPort": 56313,
+    "DstPort": 443,
+    "FlowDuration": 0.007223
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.424554",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "18.211.14.81",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 443,
+    "DstPort": 56270,
+    "FlowDuration": 0.002905
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.424554",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "18.211.14.81",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 443,
+    "DstPort": 56270,
+    "FlowDuration": 0.005901
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.424554",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "18.211.14.81",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 443,
+    "DstPort": 56270,
+    "FlowDuration": 0.007902
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.424701",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "18.211.14.81",
+    "SrcPort": 56270,
+    "DstPort": 443,
+    "FlowDuration": 0.010757
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.425011",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "18.211.14.81",
+    "SrcPort": 56270,
+    "DstPort": 443,
+    "FlowDuration": 0.014449
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.456423",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "81.171.17.183",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 7511,
+    "DstPort": 56312,
+    "FlowDuration": 0.004038
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.456423",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "81.171.17.183",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 7511,
+    "DstPort": 56312,
+    "FlowDuration": 0.007033
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.456423",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "81.171.17.183",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 7511,
+    "DstPort": 56312,
+    "FlowDuration": 0.011032
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.456567",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "81.171.17.183",
+    "SrcPort": 56312,
+    "DstPort": 7511,
+    "FlowDuration": 0.013889
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.456705",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "81.171.17.183",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 7511,
+    "DstPort": 56312,
+    "FlowDuration": 0.019756
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.456705",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "81.171.17.183",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 7511,
+    "DstPort": 56312,
+    "FlowDuration": 0.022751
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.678449",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "140.82.112.21",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 443,
+    "DstPort": 56313,
+    "FlowDuration": 0.002258
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.678586",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "140.82.112.21",
+    "SrcPort": 56313,
+    "DstPort": 443,
+    "FlowDuration": 0.005112
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.679071",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "140.82.112.21",
+    "SrcPort": 56313,
+    "DstPort": 443,
+    "FlowDuration": 0.007625
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.695441",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "223.185.124.211",
+    "SrcPort": 6881,
+    "DstPort": 18583,
+    "FlowDuration": 0.004681
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.697280",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "81.171.17.183",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 7511,
+    "DstPort": 56312,
+    "FlowDuration": 0.005841
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.713701",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "222.154.138.225",
+    "SrcPort": 6881,
+    "DstPort": 16205,
+    "FlowDuration": 0.011896
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.713934",
+    "Label": "MALICIOUS",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "212.220.204.54",
+    "SrcPort": 6881,
+    "DstPort": 34861,
+    "FlowDuration": 0.014648
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.714165",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "176.222.2.188",
+    "SrcPort": 6881,
+    "DstPort": 28013,
+    "FlowDuration": 0.018419
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.714357",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "116.86.54.253",
+    "SrcPort": 6881,
+    "DstPort": 61835,
+    "FlowDuration": 0.022526
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.714530",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "94.181.172.62",
+    "SrcPort": 6881,
+    "DstPort": 33955,
+    "FlowDuration": 0.027428
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.745918",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "18.211.14.81",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 443,
+    "DstPort": 56270,
+    "FlowDuration": 0.003037
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.769237",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "116.86.54.253",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 61835,
+    "DstPort": 6881,
+    "FlowDuration": 0.006926
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.769946",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "106.51.176.194",
+    "SrcPort": 6881,
+    "DstPort": 24953,
+    "FlowDuration": 0.012139
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.770384",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.110.51",
+    "SrcPort": 6881,
+    "DstPort": 33651,
+    "FlowDuration": 0.016982
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.770654",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "81.22.39.245",
+    "SrcPort": 6881,
+    "DstPort": 17897,
+    "FlowDuration": 0.025493
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.771044",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "163.53.207.120",
+    "SrcPort": 6881,
+    "DstPort": 12288,
+    "FlowDuration": 0.030471
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.771681",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "103.153.105.65",
+    "SrcPort": 6881,
+    "DstPort": 7418,
+    "FlowDuration": 0.033834
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.772022",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "104.28.163.34",
+    "SrcPort": 6881,
+    "DstPort": 50801,
+    "FlowDuration": 0.041194
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.772276",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.85.135",
+    "SrcPort": 6881,
+    "DstPort": 42247,
+    "FlowDuration": 0.047275
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.772655",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "152.57.194.230",
+    "SrcPort": 6881,
+    "DstPort": 49408,
+    "FlowDuration": 0.054606
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.773000",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "152.57.88.98",
+    "SrcPort": 6881,
+    "DstPort": 39833,
+    "FlowDuration": 0.060949
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.773271",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "75.155.158.215",
+    "SrcPort": 6881,
+    "DstPort": 6881,
+    "FlowDuration": 0.066619
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.773570",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "113.211.214.132",
+    "SrcPort": 6881,
+    "DstPort": 17084,
+    "FlowDuration": 0.075819
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.773827",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "115.245.169.114",
+    "SrcPort": 6881,
+    "DstPort": 6881,
+    "FlowDuration": 0.085589
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.774061",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "106.192.170.163",
+    "SrcPort": 6881,
+    "DstPort": 56328,
+    "FlowDuration": 0.093287
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.774373",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "163.53.204.100",
+    "SrcPort": 6881,
+    "DstPort": 54877,
+    "FlowDuration": 0.097975
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.774825",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "27.7.152.220",
+    "SrcPort": 6881,
+    "DstPort": 1027,
+    "FlowDuration": 0.105564
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.775163",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "103.74.141.232",
+    "SrcPort": 6881,
+    "DstPort": 12014,
+    "FlowDuration": 0.111223
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.775491",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "103.224.34.254",
+    "SrcPort": 6881,
+    "DstPort": 6057,
+    "FlowDuration": 0.117049
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.775964",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "223.237.176.145",
+    "SrcPort": 6881,
+    "DstPort": 56566,
+    "FlowDuration": 0.122786
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.776363",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "31.215.123.32",
+    "SrcPort": 6881,
+    "DstPort": 6881,
+    "FlowDuration": 0.128109
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.776749",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "49.204.132.157",
+    "SrcPort": 6881,
+    "DstPort": 39624,
+    "FlowDuration": 0.134753
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.777195",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "106.216.233.177",
+    "SrcPort": 6881,
+    "DstPort": 55597,
+    "FlowDuration": 0.139299
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.777535",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.129.209",
+    "SrcPort": 6881,
+    "DstPort": 16294,
+    "FlowDuration": 0.145114
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.777962",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "36.255.17.219",
+    "SrcPort": 6881,
+    "DstPort": 57223,
+    "FlowDuration": 0.151753
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.778265",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "122.164.86.253",
+    "SrcPort": 6881,
+    "DstPort": 7474,
+    "FlowDuration": 0.156984
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.778604",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "27.61.55.168",
+    "SrcPort": 6881,
+    "DstPort": 49718,
+    "FlowDuration": 0.165142
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.778844",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "210.18.169.6",
+    "SrcPort": 6881,
+    "DstPort": 24238,
+    "FlowDuration": 0.170205
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.779087",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.65.22",
+    "SrcPort": 6881,
+    "DstPort": 42876,
+    "FlowDuration": 0.174972
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.779338",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "223.185.129.235",
+    "SrcPort": 6881,
+    "DstPort": 2926,
+    "FlowDuration": 0.181707
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.779686",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "82.36.224.221",
+    "SrcPort": 6881,
+    "DstPort": 43350,
+    "FlowDuration": 0.186373
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.780049",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.105.39",
+    "SrcPort": 6881,
+    "DstPort": 50959,
+    "FlowDuration": 0.190993
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.780299",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "202.188.83.107",
+    "SrcPort": 6881,
+    "DstPort": 1128,
+    "FlowDuration": 0.198051
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.780653",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "27.125.181.20",
+    "SrcPort": 6881,
+    "DstPort": 6881,
+    "FlowDuration": 0.204086
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.780917",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "152.57.92.118",
+    "SrcPort": 6881,
+    "DstPort": 39832,
+    "FlowDuration": 0.209501
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.781198",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.120.107",
+    "SrcPort": 6881,
+    "DstPort": 35410,
+    "FlowDuration": 0.219443
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.781608",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "117.241.75.37",
+    "SrcPort": 6881,
+    "DstPort": 33340,
+    "FlowDuration": 0.224272
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.781883",
+    "Label": "MALICIOUS",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "171.79.50.3",
+    "SrcPort": 6881,
+    "DstPort": 55534,
+    "FlowDuration": 0.235467
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.782105",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "27.61.60.185",
+    "SrcPort": 6881,
+    "DstPort": 52927,
+    "FlowDuration": 0.251106
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.782393",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "49.37.213.154",
+    "SrcPort": 6881,
+    "DstPort": 36432,
+    "FlowDuration": 0.260382
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.782715",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.120.12",
+    "SrcPort": 6881,
+    "DstPort": 43246,
+    "FlowDuration": 0.270409
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.782943",
+    "Label": "MALICIOUS",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "223.185.23.95",
+    "SrcPort": 6881,
+    "DstPort": 29684,
+    "FlowDuration": 0.278446
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.783247",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "119.234.67.130",
+    "SrcPort": 6881,
+    "DstPort": 26334,
+    "FlowDuration": 0.286484
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.783550",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.113.88",
+    "SrcPort": 6881,
+    "DstPort": 46127,
+    "FlowDuration": 0.295767
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.783896",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "158.248.70.219",
+    "SrcPort": 6881,
+    "DstPort": 39106,
+    "FlowDuration": 0.312928
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.784266",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "49.206.115.232",
+    "SrcPort": 6881,
+    "DstPort": 3452,
+    "FlowDuration": 0.322648
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.784584",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.139.144",
+    "SrcPort": 6881,
+    "DstPort": 39197,
+    "FlowDuration": 0.334331
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.784886",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "188.236.199.89",
+    "SrcPort": 6881,
+    "DstPort": 27526,
+    "FlowDuration": 0.346277
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.785179",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "59.182.242.104",
+    "SrcPort": 6881,
+    "DstPort": 39231,
+    "FlowDuration": 0.35298
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.785479",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "27.61.55.168",
+    "SrcPort": 6881,
+    "DstPort": 37000,
+    "FlowDuration": 0.360775
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.785876",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "117.231.194.137",
+    "SrcPort": 6881,
+    "DstPort": 33039,
+    "FlowDuration": 0.36537
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.786213",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "223.178.80.153",
+    "SrcPort": 6881,
+    "DstPort": 22391,
+    "FlowDuration": 0.372033
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.786249",
+    "Label": "BENIGN",
+    "Protocol": "ICMP",
+    "SrcIP": "36.255.85.182",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 6881,
+    "DstPort": 12014,
+    "FlowDuration": 0.383995
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.786507",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "119.234.67.130",
+    "SrcPort": 6881,
+    "DstPort": 18790,
+    "FlowDuration": 0.393744
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.786828",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "103.140.155.231",
+    "SrcPort": 6881,
+    "DstPort": 6881,
+    "FlowDuration": 0.400976
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.787145",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "27.61.53.198",
+    "SrcPort": 6881,
+    "DstPort": 36040,
+    "FlowDuration": 0.410764
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.787525",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "223.185.23.95",
+    "SrcPort": 6881,
+    "DstPort": 13161,
+    "FlowDuration": 0.416388
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.787792",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "36.255.17.219",
+    "SrcPort": 6881,
+    "DstPort": 31231,
+    "FlowDuration": 0.427115
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.788144",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.92.83",
+    "SrcPort": 6881,
+    "DstPort": 48365,
+    "FlowDuration": 0.436057
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.788433",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "49.37.192.3",
+    "SrcPort": 6881,
+    "DstPort": 6881,
+    "FlowDuration": 0.445042
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.788756",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "119.234.67.130",
+    "SrcPort": 6881,
+    "DstPort": 7682,
+    "FlowDuration": 0.453708
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.789070",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "49.43.248.251",
+    "SrcPort": 6881,
+    "DstPort": 62909,
+    "FlowDuration": 0.46139
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.789356",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "152.57.83.159",
+    "SrcPort": 6881,
+    "DstPort": 47221,
+    "FlowDuration": 0.468096
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.789747",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.151.33",
+    "SrcPort": 6881,
+    "DstPort": 47620,
+    "FlowDuration": 0.475708
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.789944",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "106.51.176.194",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 24953,
+    "DstPort": 6881,
+    "FlowDuration": 0.483511
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.790199",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "77.109.154.134",
+    "SrcPort": 6881,
+    "DstPort": 64640,
+    "FlowDuration": 0.492256
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.790590",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "122.164.86.253",
+    "SrcPort": 6881,
+    "DstPort": 4655,
+    "FlowDuration": 0.499121
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.790858",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.69.235",
+    "SrcPort": 6881,
+    "DstPort": 39797,
+    "FlowDuration": 0.508856
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.791229",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.127.185",
+    "SrcPort": 6881,
+    "DstPort": 37000,
+    "FlowDuration": 0.516482
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.791459",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.93.27",
+    "SrcPort": 6881,
+    "DstPort": 52439,
+    "FlowDuration": 0.526252
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.791919",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "106.222.197.116",
+    "SrcPort": 6881,
+    "DstPort": 2346,
+    "FlowDuration": 0.53379
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.792178",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "106.196.23.65",
+    "SrcPort": 6881,
+    "DstPort": 48336,
+    "FlowDuration": 0.542534
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.792497",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "223.237.179.221",
+    "SrcPort": 6881,
+    "DstPort": 49116,
+    "FlowDuration": 0.550217
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.792744",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "106.200.13.96",
+    "SrcPort": 6881,
+    "DstPort": 14169,
+    "FlowDuration": 0.558966
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.792980",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "81.22.39.245",
+    "SrcPort": 6881,
+    "DstPort": 1794,
+    "FlowDuration": 0.570729
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.793257",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "87.200.123.101",
+    "SrcPort": 6881,
+    "DstPort": 46849,
+    "FlowDuration": 0.577454
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.793566",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "120.56.29.70",
+    "SrcPort": 6881,
+    "DstPort": 12249,
+    "FlowDuration": 0.589144
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.793852",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "180.75.253.105",
+    "SrcPort": 6881,
+    "DstPort": 16163,
+    "FlowDuration": 0.594862
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.794113",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "49.37.216.166",
+    "SrcPort": 6881,
+    "DstPort": 12857,
+    "FlowDuration": 0.605603
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.794372",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "86.243.215.195",
+    "SrcPort": 6881,
+    "DstPort": 6881,
+    "FlowDuration": 0.614779
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.794743",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "103.140.155.201",
+    "SrcPort": 6881,
+    "DstPort": 6881,
+    "FlowDuration": 0.623744
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.795099",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "49.205.84.101",
+    "SrcPort": 6881,
+    "DstPort": 27858,
+    "FlowDuration": 0.634583
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.795347",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.107.140",
+    "SrcPort": 6881,
+    "DstPort": 59521,
+    "FlowDuration": 0.641272
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.795613",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "14.100.3.213",
+    "SrcPort": 6881,
+    "DstPort": 6881,
+    "FlowDuration": 0.651282
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.795816",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "180.75.253.105",
+    "SrcPort": 6881,
+    "DstPort": 32758,
+    "FlowDuration": 0.659079
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.796025",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "152.57.80.59",
+    "SrcPort": 6881,
+    "DstPort": 36376,
+    "FlowDuration": 0.668171
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.796247",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "152.57.205.181",
+    "SrcPort": 6881,
+    "DstPort": 57393,
+    "FlowDuration": 0.67617
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.796644",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "106.195.35.104",
+    "SrcPort": 6881,
+    "DstPort": 45499,
+    "FlowDuration": 0.68677
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.796979",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "103.74.141.232",
+    "SrcPort": 6881,
+    "DstPort": 12018,
+    "FlowDuration": 0.695435
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.797180",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.85.189",
+    "SrcPort": 6881,
+    "DstPort": 48925,
+    "FlowDuration": 0.70324
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.797872",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "103.169.56.38",
+    "SrcPort": 6881,
+    "DstPort": 5105,
+    "FlowDuration": 0.714946
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.798213",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "176.202.200.195",
+    "SrcPort": 6881,
+    "DstPort": 62043,
+    "FlowDuration": 0.721604
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.798540",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "106.211.239.62",
+    "SrcPort": 6881,
+    "DstPort": 2931,
+    "FlowDuration": 0.732277
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.798846",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "49.47.241.55",
+    "SrcPort": 6881,
+    "DstPort": 6881,
+    "FlowDuration": 0.739974
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.799156",
+    "Label": "MALICIOUS",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.16.84",
+    "SrcPort": 6881,
+    "DstPort": 39965,
+    "FlowDuration": 0.748663
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.799407",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "176.17.53.184",
+    "SrcPort": 6881,
+    "DstPort": 46530,
+    "FlowDuration": 0.761418
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.799667",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "163.53.204.100",
+    "SrcPort": 6881,
+    "DstPort": 36908,
+    "FlowDuration": 0.770149
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.799952",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "163.53.204.100",
+    "SrcPort": 6881,
+    "DstPort": 47207,
+    "FlowDuration": 0.780863
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.800224",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "117.243.86.162",
+    "SrcPort": 6881,
+    "DstPort": 34937,
+    "FlowDuration": 0.793595
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.800551",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "1.32.21.155",
+    "SrcPort": 6881,
+    "DstPort": 48522,
+    "FlowDuration": 0.801265
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.800815",
+    "Label": "BENIGN",
+    "Protocol": "ICMP",
+    "SrcIP": "27.7.152.220",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 6881,
+    "DstPort": 1027,
+    "FlowDuration": 0.813002
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.801066",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "49.47.217.166",
+    "SrcPort": 6881,
+    "DstPort": 60285,
+    "FlowDuration": 0.820753
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.801494",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "27.61.52.169",
+    "SrcPort": 6881,
+    "DstPort": 6881,
+    "FlowDuration": 0.831327
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.801810",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "91.244.71.26",
+    "SrcPort": 6881,
+    "DstPort": 61798,
+    "FlowDuration": 0.896009
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.802152",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.92.197",
+    "SrcPort": 6881,
+    "DstPort": 40487,
+    "FlowDuration": 0.991844
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.803596",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "189.162.114.175",
+    "SrcPort": 6881,
+    "DstPort": 15000,
+    "FlowDuration": 1.054402
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.804034",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "122.178.254.160",
+    "SrcPort": 6881,
+    "DstPort": 64190,
+    "FlowDuration": 1.063489
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.804686",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "46.24.29.215",
+    "SrcPort": 6881,
+    "DstPort": 51413,
+    "FlowDuration": 1.109348
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.804989",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "18.198.236.147",
+    "SrcPort": 6881,
+    "DstPort": 6992,
+    "FlowDuration": 1.121385
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.809032",
+    "Label": "BENIGN",
+    "Protocol": "ICMP",
+    "SrcIP": "36.255.85.182",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 6881,
+    "DstPort": 12018,
+    "FlowDuration": 1.151373
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.814588",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "210.18.169.6",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 24238,
+    "DstPort": 6881,
+    "FlowDuration": 1.188947
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.826949",
+    "Label": "BENIGN",
+    "Protocol": "ICMP",
+    "SrcIP": "202.62.65.113",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 6881,
+    "DstPort": 6881,
+    "FlowDuration": 1.271115
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.828991",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.113.88",
+    "SrcPort": 65406,
+    "DstPort": 46127,
+    "FlowDuration": 1.281082
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.829701",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.16.84",
+    "SrcPort": 65406,
+    "DstPort": 39965,
+    "FlowDuration": 1.287368
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.830438",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.139.144",
+    "SrcPort": 65406,
+    "DstPort": 39197,
+    "FlowDuration": 1.296623
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.831387",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "223.178.80.153",
+    "SrcPort": 65406,
+    "DstPort": 22391,
+    "FlowDuration": 1.304673
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.831977",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "113.211.214.132",
+    "SrcPort": 65406,
+    "DstPort": 17084,
+    "FlowDuration": 1.312086
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.832536",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "184.66.60.210",
+    "SrcPort": 65406,
+    "DstPort": 53081,
+    "FlowDuration": 1.320532
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.833850",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "103.140.155.201",
+    "SrcPort": 65406,
+    "DstPort": 6881,
+    "FlowDuration": 1.33322
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.834301",
+    "Label": "MALICIOUS",
+    "Protocol": "ICMP",
+    "SrcIP": "202.62.65.113",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 6881,
+    "DstPort": 6881,
+    "FlowDuration": 1.345782
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.834451",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "49.205.84.101",
+    "SrcPort": 65406,
+    "DstPort": 27858,
+    "FlowDuration": 1.356626
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.838860",
+    "Label": "BENIGN",
+    "Protocol": "ICMP",
+    "SrcIP": "202.188.83.107",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 6881,
+    "DstPort": 1128,
+    "FlowDuration": 1.36621
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.839850",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "113.211.214.132",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 17084,
+    "DstPort": 6881,
+    "FlowDuration": 1.376216
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.873088",
+    "Label": "BENIGN",
+    "Protocol": "ICMP",
+    "SrcIP": "202.62.65.113",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 65406,
+    "DstPort": 6881,
+    "FlowDuration": 1.376976
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.873948",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "157.51.85.189",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 48925,
+    "DstPort": 6881,
+    "FlowDuration": 1.384128
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.903287",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "113.211.214.132",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 17084,
+    "DstPort": 65406,
+    "FlowDuration": 1.442079
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.904188",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "113.211.214.132",
+    "SrcPort": 65406,
+    "DstPort": 17084,
+    "FlowDuration": 1.448188
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.976325",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "113.211.214.132",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 17084,
+    "DstPort": 65406,
+    "FlowDuration": 1.400045
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.979202",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "140.82.112.21",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 443,
+    "DstPort": 56313,
+    "FlowDuration": 1.408173
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.979512",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "140.82.112.21",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 443,
+    "DstPort": 56313,
+    "FlowDuration": 1.417857
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.979512",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "140.82.112.21",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 443,
+    "DstPort": 56313,
+    "FlowDuration": 1.425883
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.979655",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "140.82.112.21",
+    "SrcPort": 56313,
+    "DstPort": 443,
+    "FlowDuration": 1.435712
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.984832",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "140.82.112.21",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 443,
+    "DstPort": 56313,
+    "FlowDuration": 1.468778
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.984832",
+    "Label": "MALICIOUS",
+    "Protocol": "TCP",
+    "SrcIP": "140.82.112.21",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 443,
+    "DstPort": 56313,
+    "FlowDuration": 1.479317
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.984980",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "140.82.112.21",
+    "SrcPort": 56313,
+    "DstPort": 443,
+    "FlowDuration": 1.489165
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.987116",
+    "Label": "MALICIOUS",
+    "Protocol": "UDP",
+    "SrcIP": "113.211.214.132",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 17084,
+    "DstPort": 65406,
+    "FlowDuration": 1.523984
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.991814",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "140.82.112.21",
+    "SrcPort": 56313,
+    "DstPort": 443,
+    "FlowDuration": 1.557284
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.992658",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "113.211.214.132",
+    "SrcPort": 65406,
+    "DstPort": 17084,
+    "FlowDuration": 1.572441
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.992951",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "140.82.112.21",
+    "SrcPort": 56313,
+    "DstPort": 443,
+    "FlowDuration": 1.580147
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.992951",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "140.82.112.21",
+    "SrcPort": 56313,
+    "DstPort": 443,
+    "FlowDuration": 1.591151
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.992951",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "140.82.112.21",
+    "SrcPort": 56313,
+    "DstPort": 443,
+    "FlowDuration": 1.600156
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.992951",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "140.82.112.21",
+    "SrcPort": 56313,
+    "DstPort": 443,
+    "FlowDuration": 1.609147
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.992951",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "140.82.112.21",
+    "SrcPort": 56313,
+    "DstPort": 443,
+    "FlowDuration": 1.620148
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.992951",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "140.82.112.21",
+    "SrcPort": 56313,
+    "DstPort": 443,
+    "FlowDuration": 1.628154
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.992951",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "140.82.112.21",
+    "SrcPort": 56313,
+    "DstPort": 443,
+    "FlowDuration": 1.638151
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.992951",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "140.82.112.21",
+    "SrcPort": 56313,
+    "DstPort": 443,
+    "FlowDuration": 1.647146
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.992951",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "140.82.112.21",
+    "SrcPort": 56313,
+    "DstPort": 443,
+    "FlowDuration": 1.656147
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.992951",
+    "Label": "BENIGN",
+    "Protocol": "TCP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "140.82.112.21",
+    "SrcPort": 56313,
+    "DstPort": 443,
+    "FlowDuration": 1.665149
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:03.993847",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "113.211.214.132",
+    "SrcPort": 65406,
+    "DstPort": 17084,
+    "FlowDuration": 1.684258
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.003746",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "222.154.138.225",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 16205,
+    "DstPort": 6881,
+    "FlowDuration": 1.692358
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.004913",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "103.140.155.231",
+    "SrcPort": 6881,
+    "DstPort": 6881,
+    "FlowDuration": 1.700193
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.005386",
+    "Label": "MALICIOUS",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.85.135",
+    "SrcPort": 6881,
+    "DstPort": 42247,
+    "FlowDuration": 1.709017
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.005715",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "152.57.88.98",
+    "SrcPort": 6881,
+    "DstPort": 39833,
+    "FlowDuration": 1.723689
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.006142",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "152.57.88.75",
+    "SrcPort": 6881,
+    "DstPort": 48566,
+    "FlowDuration": 1.731263
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.006382",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "49.43.248.251",
+    "SrcPort": 6881,
+    "DstPort": 62909,
+    "FlowDuration": 1.739227
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.006875",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "81.22.39.245",
+    "SrcPort": 6881,
+    "DstPort": 53991,
+    "FlowDuration": 1.746731
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.007495",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "103.74.141.240",
+    "SrcPort": 6881,
+    "DstPort": 12009,
+    "FlowDuration": 1.757119
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.007909",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "103.74.141.240",
+    "SrcPort": 6881,
+    "DstPort": 12011,
+    "FlowDuration": 1.765698
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.008514",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "163.53.204.100",
+    "SrcPort": 6881,
+    "DstPort": 47207,
+    "FlowDuration": 1.776092
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.008835",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.127.185",
+    "SrcPort": 6881,
+    "DstPort": 37000,
+    "FlowDuration": 1.784773
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.009257",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "158.248.70.219",
+    "SrcPort": 6881,
+    "DstPort": 39106,
+    "FlowDuration": 1.794357
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.009535",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.16.84",
+    "SrcPort": 6881,
+    "DstPort": 39965,
+    "FlowDuration": 1.804284
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.010108",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "14.100.3.213",
+    "SrcPort": 6881,
+    "DstPort": 6881,
+    "FlowDuration": 1.811746
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.010517",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "1.32.21.155",
+    "SrcPort": 6881,
+    "DstPort": 48522,
+    "FlowDuration": 1.822335
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.010844",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "27.61.52.169",
+    "SrcPort": 6881,
+    "DstPort": 6881,
+    "FlowDuration": 1.831016
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.011368",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "223.185.23.95",
+    "SrcPort": 6881,
+    "DstPort": 9237,
+    "FlowDuration": 1.839589
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.011616",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.120.12",
+    "SrcPort": 6881,
+    "DstPort": 43246,
+    "FlowDuration": 1.847346
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.011998",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "119.234.67.130",
+    "SrcPort": 6881,
+    "DstPort": 26331,
+    "FlowDuration": 1.856966
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.012259",
+    "Label": "MALICIOUS",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "49.37.216.166",
+    "SrcPort": 6881,
+    "DstPort": 12857,
+    "FlowDuration": 1.870548
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.012836",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "27.61.55.168",
+    "SrcPort": 6881,
+    "DstPort": 37319,
+    "FlowDuration": 1.883961
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.013359",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "49.47.241.55",
+    "SrcPort": 6881,
+    "DstPort": 6881,
+    "FlowDuration": 1.893441
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.013720",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.107.140",
+    "SrcPort": 6881,
+    "DstPort": 59521,
+    "FlowDuration": 1.90408
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.014022",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "152.57.192.64",
+    "SrcPort": 6881,
+    "DstPort": 33702,
+    "FlowDuration": 1.913775
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.014224",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "106.192.170.163",
+    "SrcPort": 6881,
+    "DstPort": 56328,
+    "FlowDuration": 1.923571
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.014474",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "113.211.214.132",
+    "SrcPort": 6881,
+    "DstPort": 17084,
+    "FlowDuration": 1.937325
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.014843",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "117.243.86.162",
+    "SrcPort": 6881,
+    "DstPort": 34937,
+    "FlowDuration": 1.94699
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.015585",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "36.255.17.219",
+    "SrcPort": 6881,
+    "DstPort": 2890,
+    "FlowDuration": 1.954211
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.015928",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "23.158.56.119",
+    "SrcPort": 6881,
+    "DstPort": 9999,
+    "FlowDuration": 1.963657
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.016238",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "223.178.80.153",
+    "SrcPort": 6881,
+    "DstPort": 27739,
+    "FlowDuration": 1.972826
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.016569",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "176.202.200.195",
+    "SrcPort": 6881,
+    "DstPort": 62043,
+    "FlowDuration": 1.981526
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.017052",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "115.245.169.114",
+    "SrcPort": 6881,
+    "DstPort": 6881,
+    "FlowDuration": 1.989322
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.017708",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "106.222.197.116",
+    "SrcPort": 6881,
+    "DstPort": 15265,
+    "FlowDuration": 2.002699
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.017974",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "171.79.50.3",
+    "SrcPort": 6881,
+    "DstPort": 55534,
+    "FlowDuration": 2.010428
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.018231",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "152.57.80.59",
+    "SrcPort": 6881,
+    "DstPort": 36376,
+    "FlowDuration": 2.019166
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.018466",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "49.37.192.3",
+    "SrcPort": 6881,
+    "DstPort": 6881,
+    "FlowDuration": 2.026934
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.018790",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "171.76.80.194",
+    "SrcPort": 6881,
+    "DstPort": 27524,
+    "FlowDuration": 2.046618
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.019440",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "69.50.95.40",
+    "SrcPort": 6881,
+    "DstPort": 11999,
+    "FlowDuration": 2.068435
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.019806",
+    "Label": "BENIGN",
+    "Protocol": "ICMP",
+    "SrcIP": "36.255.85.182",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 6881,
+    "DstPort": 12009,
+    "FlowDuration": 2.088118
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.019962",
+    "Label": "MALICIOUS",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "120.56.29.70",
+    "SrcPort": 6881,
+    "DstPort": 12002,
+    "FlowDuration": 2.100534
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.020158",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "106.196.23.65",
+    "SrcPort": 6881,
+    "DstPort": 48336,
+    "FlowDuration": 2.113574
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.020678",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "104.28.163.34",
+    "SrcPort": 6881,
+    "DstPort": 52705,
+    "FlowDuration": 2.124048
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.021181",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "120.56.29.70",
+    "SrcPort": 6881,
+    "DstPort": 12001,
+    "FlowDuration": 2.130557
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.021327",
+    "Label": "BENIGN",
+    "Protocol": "ICMP",
+    "SrcIP": "36.255.85.182",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 6881,
+    "DstPort": 12011,
+    "FlowDuration": 2.145401
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.021755",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "163.53.204.100",
+    "SrcPort": 6881,
+    "DstPort": 36908,
+    "FlowDuration": 2.152972
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.022031",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.113.88",
+    "SrcPort": 6881,
+    "DstPort": 46127,
+    "FlowDuration": 2.160697
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.022379",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "210.18.169.6",
+    "SrcPort": 6881,
+    "DstPort": 24238,
+    "FlowDuration": 2.167354
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.022691",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "176.17.53.184",
+    "SrcPort": 6881,
+    "DstPort": 46530,
+    "FlowDuration": 2.176033
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.022955",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "27.61.60.185",
+    "SrcPort": 6881,
+    "DstPort": 52927,
+    "FlowDuration": 2.183772
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.023267",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.92.197",
+    "SrcPort": 6881,
+    "DstPort": 40487,
+    "FlowDuration": 2.191463
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.023491",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "49.206.115.232",
+    "SrcPort": 6881,
+    "DstPort": 3452,
+    "FlowDuration": 2.199239
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.023753",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "49.205.84.101",
+    "SrcPort": 6881,
+    "DstPort": 27858,
+    "FlowDuration": 2.210008
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.024986",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "183.87.168.217",
+    "SrcPort": 6881,
+    "DstPort": 43220,
+    "FlowDuration": 2.217801
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.025556",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "202.188.83.107",
+    "SrcPort": 6881,
+    "DstPort": 1128,
+    "FlowDuration": 2.226248
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.025881",
+    "Label": "MALICIOUS",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "163.53.204.100",
+    "SrcPort": 6881,
+    "DstPort": 54877,
+    "FlowDuration": 2.234906
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.026466",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "117.193.151.105",
+    "SrcPort": 6881,
+    "DstPort": 29604,
+    "FlowDuration": 2.250319
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.027831",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "75.155.158.215",
+    "SrcPort": 6881,
+    "DstPort": 6881,
+    "FlowDuration": 2.259955
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.028890",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "119.234.67.130",
+    "SrcPort": 6881,
+    "DstPort": 7683,
+    "FlowDuration": 2.267897
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.029563",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "36.255.17.219",
+    "SrcPort": 6881,
+    "DstPort": 54549,
+    "FlowDuration": 2.275222
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.030255",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "87.200.123.101",
+    "SrcPort": 6881,
+    "DstPort": 46849,
+    "FlowDuration": 2.282531
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.030637",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "152.57.83.159",
+    "SrcPort": 6881,
+    "DstPort": 47221,
+    "FlowDuration": 2.289151
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.030957",
+    "Label": "MALICIOUS",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.69.235",
+    "SrcPort": 6881,
+    "DstPort": 39797,
+    "FlowDuration": 2.297828
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.031321",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "103.153.105.65",
+    "SrcPort": 6881,
+    "DstPort": 6789,
+    "FlowDuration": 2.308467
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.031614",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "223.237.176.145",
+    "SrcPort": 6881,
+    "DstPort": 56566,
+    "FlowDuration": 2.317182
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.032020",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "31.215.123.32",
+    "SrcPort": 6881,
+    "DstPort": 6881,
+    "FlowDuration": 2.323764
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.032327",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "77.109.154.134",
+    "SrcPort": 6881,
+    "DstPort": 64640,
+    "FlowDuration": 2.33346
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.032977",
+    "Label": "MALICIOUS",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "106.222.197.116",
+    "SrcPort": 6881,
+    "DstPort": 9468,
+    "FlowDuration": 2.338813
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.033733",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "180.75.253.105",
+    "SrcPort": 6881,
+    "DstPort": 40519,
+    "FlowDuration": 2.354051
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.034058",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "163.53.207.120",
+    "SrcPort": 6881,
+    "DstPort": 12022,
+    "FlowDuration": 2.362826
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.034408",
+    "Label": "MALICIOUS",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.30.74",
+    "SrcPort": 6881,
+    "DstPort": 39149,
+    "FlowDuration": 2.368504
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.034722",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "27.61.55.168",
+    "SrcPort": 6881,
+    "DstPort": 49718,
+    "FlowDuration": 2.380191
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.035296",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "86.243.215.195",
+    "SrcPort": 6881,
+    "DstPort": 6881,
+    "FlowDuration": 2.386616
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.036091",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "223.237.188.111",
+    "SrcPort": 6881,
+    "DstPort": 50654,
+    "FlowDuration": 2.397818
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.036505",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "171.76.80.194",
+    "SrcPort": 6881,
+    "DstPort": 31620,
+    "FlowDuration": 2.413413
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.036760",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "49.204.132.157",
+    "SrcPort": 6881,
+    "DstPort": 39624,
+    "FlowDuration": 2.419152
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.037152",
+    "Label": "MALICIOUS",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "106.51.176.194",
+    "SrcPort": 6881,
+    "DstPort": 24953,
+    "FlowDuration": 2.428761
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.037546",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "91.244.71.26",
+    "SrcPort": 6881,
+    "DstPort": 61798,
+    "FlowDuration": 2.450671
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.038254",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "117.231.194.137",
+    "SrcPort": 6881,
+    "DstPort": 33025,
+    "FlowDuration": 2.460959
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.038630",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "103.140.155.201",
+    "SrcPort": 6881,
+    "DstPort": 6881,
+    "FlowDuration": 2.468579
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.039047",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "122.164.86.253",
+    "SrcPort": 6881,
+    "DstPort": 22439,
+    "FlowDuration": 2.479163
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.039457",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.110.51",
+    "SrcPort": 6881,
+    "DstPort": 33651,
+    "FlowDuration": 2.490782
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.039929",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "162.251.63.120",
+    "SrcPort": 6881,
+    "DstPort": 9999,
+    "FlowDuration": 2.505281
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.040321",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "152.57.205.181",
+    "SrcPort": 6881,
+    "DstPort": 57393,
+    "FlowDuration": 2.515886
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.040673",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.139.144",
+    "SrcPort": 6881,
+    "DstPort": 39197,
+    "FlowDuration": 2.526541
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.040939",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "27.7.152.220",
+    "SrcPort": 6881,
+    "DstPort": 1027,
+    "FlowDuration": 2.539352
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.041275",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "122.164.86.253",
+    "SrcPort": 6881,
+    "DstPort": 10567,
+    "FlowDuration": 2.549347
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.041495",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.105.39",
+    "SrcPort": 6881,
+    "DstPort": 50959,
+    "FlowDuration": 2.562122
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.041690",
+    "Label": "MALICIOUS",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.85.189",
+    "SrcPort": 6881,
+    "DstPort": 48925,
+    "FlowDuration": 2.571923
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.042381",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "49.37.195.2",
+    "SrcPort": 6881,
+    "DstPort": 53816,
+    "FlowDuration": 2.606591
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.042878",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "82.36.224.221",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 43350,
+    "DstPort": 6881,
+    "FlowDuration": 2.614104
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.042947",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "104.28.163.34",
+    "SrcPort": 6881,
+    "DstPort": 52422,
+    "FlowDuration": 2.627025
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.043394",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "223.185.129.235",
+    "SrcPort": 6881,
+    "DstPort": 30876,
+    "FlowDuration": 2.641689
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.043952",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "103.224.34.254",
+    "SrcPort": 6881,
+    "DstPort": 4279,
+    "FlowDuration": 2.653501
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.044519",
+    "Label": "BENIGN",
+    "Protocol": "ICMP",
+    "SrcIP": "202.62.65.113",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 6881,
+    "DstPort": 6881,
+    "FlowDuration": 2.662942
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.045083",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "69.50.95.40",
+    "SrcPort": 6881,
+    "DstPort": 9999,
+    "FlowDuration": 2.674532
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.045450",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "27.61.55.168",
+    "SrcPort": 6881,
+    "DstPort": 37000,
+    "FlowDuration": 2.68518
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.045908",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "106.211.239.62",
+    "SrcPort": 6881,
+    "DstPort": 2931,
+    "FlowDuration": 2.69272
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.046594",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "103.169.56.38",
+    "SrcPort": 6881,
+    "DstPort": 4483,
+    "FlowDuration": 2.702356
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.047321",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.110.127",
+    "SrcPort": 6881,
+    "DstPort": 34296,
+    "FlowDuration": 2.71063
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.047837",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "49.37.213.154",
+    "SrcPort": 6881,
+    "DstPort": 36432,
+    "FlowDuration": 2.721109
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.048162",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "223.237.179.221",
+    "SrcPort": 6881,
+    "DstPort": 49116,
+    "FlowDuration": 2.731795
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.048550",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "163.53.207.120",
+    "SrcPort": 6881,
+    "DstPort": 12033,
+    "FlowDuration": 2.74371
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.048977",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "106.200.13.96",
+    "SrcPort": 6881,
+    "DstPort": 13871,
+    "FlowDuration": 2.753595
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.049352",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "106.219.177.229",
+    "SrcPort": 6881,
+    "DstPort": 26595,
+    "FlowDuration": 2.766565
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.049819",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "49.47.217.166",
+    "SrcPort": 6881,
+    "DstPort": 60285,
+    "FlowDuration": 2.782519
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.052214",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "80.29.75.115",
+    "SrcPort": 6881,
+    "DstPort": 40568,
+    "FlowDuration": 2.794396
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.052789",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "202.178.126.160",
+    "SrcPort": 6881,
+    "DstPort": 12843,
+    "FlowDuration": 2.804828
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.053618",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "35.167.186.212",
+    "SrcPort": 6881,
+    "DstPort": 6881,
+    "FlowDuration": 2.818003
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.056486",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "106.51.176.194",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 24953,
+    "DstPort": 6881,
+    "FlowDuration": 2.827125
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.061605",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "113.211.214.132",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 17084,
+    "DstPort": 65406,
+    "FlowDuration": 2.837933
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.061605",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "113.211.214.132",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 17084,
+    "DstPort": 65406,
+    "FlowDuration": 2.848935
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.062151",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "113.211.214.132",
+    "SrcPort": 65406,
+    "DstPort": 17084,
+    "FlowDuration": 2.860135
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.062991",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "113.211.214.132",
+    "SrcPort": 65406,
+    "DstPort": 17084,
+    "FlowDuration": 2.86929
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.063745",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "210.18.169.6",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 24238,
+    "DstPort": 6881,
+    "FlowDuration": 2.888548
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.066551",
+    "Label": "BENIGN",
+    "Protocol": "ICMP",
+    "SrcIP": "27.7.152.220",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 6881,
+    "DstPort": 1027,
+    "FlowDuration": 2.907037
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.069956",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "212.220.204.54",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 34861,
+    "DstPort": 6881,
+    "FlowDuration": 2.913806
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.070202",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "94.181.172.62",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 33955,
+    "DstPort": 6881,
+    "FlowDuration": 2.926594
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.070816",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "152.57.192.64",
+    "SrcPort": 6881,
+    "DstPort": 33702,
+    "FlowDuration": 2.934318
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.071326",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "163.53.204.100",
+    "SrcPort": 6881,
+    "DstPort": 47207,
+    "FlowDuration": 2.943415
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.071642",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.151.33",
+    "SrcPort": 6881,
+    "DstPort": 47620,
+    "FlowDuration": 2.953098
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.072067",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "120.56.29.70",
+    "SrcPort": 6881,
+    "DstPort": 12004,
+    "FlowDuration": 2.963673
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.072654",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "152.57.80.59",
+    "SrcPort": 6881,
+    "DstPort": 36376,
+    "FlowDuration": 2.974085
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.073216",
+    "Label": "MALICIOUS",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "163.53.207.120",
+    "SrcPort": 6881,
+    "DstPort": 12285,
+    "FlowDuration": 2.980525
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.073791",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "120.56.29.70",
+    "SrcPort": 6881,
+    "DstPort": 12008,
+    "FlowDuration": 2.993957
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.074071",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.107.140",
+    "SrcPort": 6881,
+    "DstPort": 59521,
+    "FlowDuration": 3.009671
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.074256",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "1.32.21.155",
+    "SrcPort": 6881,
+    "DstPort": 48522,
+    "FlowDuration": 3.022494
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.074603",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "106.200.13.96",
+    "SrcPort": 6881,
+    "DstPort": 19876,
+    "FlowDuration": 3.037514
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.074876",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "49.206.115.232",
+    "SrcPort": 6881,
+    "DstPort": 3452,
+    "FlowDuration": 3.048236
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.075347",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "160.20.107.198",
+    "SrcPort": 6881,
+    "DstPort": 40265,
+    "FlowDuration": 3.060764
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.075630",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "176.17.53.184",
+    "SrcPort": 6881,
+    "DstPort": 46530,
+    "FlowDuration": 3.074488
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.075863",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.85.135",
+    "SrcPort": 6881,
+    "DstPort": 42247,
+    "FlowDuration": 3.087281
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.076231",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "75.155.158.215",
+    "SrcPort": 6881,
+    "DstPort": 6881,
+    "FlowDuration": 3.095946
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.076538",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "87.200.123.101",
+    "SrcPort": 6881,
+    "DstPort": 46849,
+    "FlowDuration": 3.105629
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.076817",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "27.61.55.168",
+    "SrcPort": 6881,
+    "DstPort": 37319,
+    "FlowDuration": 3.115502
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.077058",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "210.18.169.6",
+    "SrcPort": 6881,
+    "DstPort": 24238,
+    "FlowDuration": 3.125265
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.077325",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "152.57.194.230",
+    "SrcPort": 6881,
+    "DstPort": 49408,
+    "FlowDuration": 3.134992
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.077572",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "91.244.71.26",
+    "SrcPort": 6881,
+    "DstPort": 61798,
+    "FlowDuration": 3.143753
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.078186",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "117.241.75.37",
+    "SrcPort": 6881,
+    "DstPort": 33423,
+    "FlowDuration": 3.154135
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.078771",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "188.236.199.89",
+    "SrcPort": 6881,
+    "DstPort": 27526,
+    "FlowDuration": 3.16806
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.079077",
+    "Label": "BENIGN",
+    "Protocol": "ICMP",
+    "SrcIP": "202.62.65.113",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 6881,
+    "DstPort": 6881,
+    "FlowDuration": 3.18775
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.079418",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "113.211.214.132",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 17084,
+    "DstPort": 6881,
+    "FlowDuration": 3.199428
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.079493",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "119.234.67.130",
+    "SrcPort": 6881,
+    "DstPort": 7684,
+    "FlowDuration": 3.213082
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.079994",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "103.74.141.231",
+    "SrcPort": 6881,
+    "DstPort": 12012,
+    "FlowDuration": 3.223461
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.080230",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.30.74",
+    "SrcPort": 6881,
+    "DstPort": 39149,
+    "FlowDuration": 3.237211
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.080927",
+    "Label": "MALICIOUS",
+    "Protocol": "UDP",
+    "SrcIP": "75.155.158.215",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 6881,
+    "DstPort": 6881,
+    "FlowDuration": 3.248902
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.081143",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "103.169.56.38",
+    "SrcPort": 6881,
+    "DstPort": 1053,
+    "FlowDuration": 3.259684
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.081777",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "103.74.141.231",
+    "SrcPort": 6881,
+    "DstPort": 12014,
+    "FlowDuration": 3.270052
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.082308",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.139.144",
+    "SrcPort": 6881,
+    "DstPort": 39197,
+    "FlowDuration": 3.279528
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.082917",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "122.164.86.253",
+    "SrcPort": 6881,
+    "DstPort": 11730,
+    "FlowDuration": 3.288913
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.083357",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "103.224.34.254",
+    "SrcPort": 6881,
+    "DstPort": 5170,
+    "FlowDuration": 3.300537
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.083620",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "27.61.60.185",
+    "SrcPort": 6881,
+    "DstPort": 52927,
+    "FlowDuration": 3.309165
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.084029",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "106.200.13.96",
+    "SrcPort": 6881,
+    "DstPort": 20987,
+    "FlowDuration": 3.318208
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.084310",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.65.22",
+    "SrcPort": 6881,
+    "DstPort": 42876,
+    "FlowDuration": 3.328271
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.084346",
+    "Label": "BENIGN",
+    "Protocol": "ICMP",
+    "SrcIP": "202.188.83.107",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 6881,
+    "DstPort": 1128,
+    "FlowDuration": 3.339237
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.084570",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "106.216.233.177",
+    "SrcPort": 6881,
+    "DstPort": 55597,
+    "FlowDuration": 3.351008
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.084924",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.105.39",
+    "SrcPort": 6881,
+    "DstPort": 50959,
+    "FlowDuration": 3.358655
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.085625",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "122.164.86.253",
+    "SrcPort": 6881,
+    "DstPort": 7355,
+    "FlowDuration": 3.367952
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.086040",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "180.75.253.105",
+    "SrcPort": 6881,
+    "DstPort": 7135,
+    "FlowDuration": 3.378547
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.086241",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "113.211.214.132",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 17084,
+    "DstPort": 65406,
+    "FlowDuration": 3.387339
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.086463",
+    "Label": "MALICIOUS",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "59.182.242.104",
+    "SrcPort": 6881,
+    "DstPort": 39184,
+    "FlowDuration": 3.398744
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.086822",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "82.36.224.221",
+    "SrcPort": 6881,
+    "DstPort": 43350,
+    "FlowDuration": 3.419022
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.087109",
+    "Label": "MALICIOUS",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "152.57.88.98",
+    "SrcPort": 6881,
+    "DstPort": 39833,
+    "FlowDuration": 3.432132
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.087545",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "223.178.80.153",
+    "SrcPort": 6881,
+    "DstPort": 11564,
+    "FlowDuration": 3.445692
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.087947",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "106.211.239.62",
+    "SrcPort": 6881,
+    "DstPort": 2931,
+    "FlowDuration": 3.455298
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.088440",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "171.76.80.194",
+    "SrcPort": 6881,
+    "DstPort": 5166,
+    "FlowDuration": 3.463795
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.088824",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "49.205.84.101",
+    "SrcPort": 6881,
+    "DstPort": 27858,
+    "FlowDuration": 3.475423
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.089053",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "176.222.2.188",
+    "DstIP": "192.168.0.101",
+    "SrcPort": 28013,
+    "DstPort": 6881,
+    "FlowDuration": 3.485672
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.089122",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.120.12",
+    "SrcPort": 6881,
+    "DstPort": 43246,
+    "FlowDuration": 3.501132
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.089472",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.92.83",
+    "SrcPort": 6881,
+    "DstPort": 48365,
+    "FlowDuration": 3.517112
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.089735",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "77.109.154.134",
+    "SrcPort": 6881,
+    "DstPort": 64640,
+    "FlowDuration": 3.528408
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.090005",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "152.57.205.181",
+    "SrcPort": 6881,
+    "DstPort": 57393,
+    "FlowDuration": 3.541378
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.090262",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "152.57.92.118",
+    "SrcPort": 6881,
+    "DstPort": 39832,
+    "FlowDuration": 3.550121
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.090539",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "157.51.127.185",
+    "SrcPort": 6881,
+    "DstPort": 37000,
+    "FlowDuration": 3.565426
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.090934",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "103.153.105.65",
+    "SrcPort": 6881,
+    "DstPort": 30672,
+    "FlowDuration": 3.576374
+  },
+  {
+    "Timestamp": "2025-09-25 20:36:04.091360",
+    "Label": "BENIGN",
+    "Protocol": "UDP",
+    "SrcIP": "192.168.0.101",
+    "DstIP": "86.243.215.195",
+    "SrcPort": 6881,
+    "DstPort": 6881,
+    "FlowDuration": 3.584948
+  }
+]

@@ -1,0 +1,134 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Honeypot Dashboard</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.datatables.net/v/bs5/dt-1.13.6/datatables.min.css" rel="stylesheet"/>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="https://cdn.datatables.net/v/bs5/dt-1.13.6/datatables.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
+<style>
+body { background:#f8f9fa; font-family:Inter,sans-serif; }
+.benign-row td { background: rgba(29,199,155,0.08); }
+.malicious-row td { background: rgba(255,99,132,0.08); }
+.summary-btn { cursor:pointer; margin-right:10px; min-width:110px; }
+.card-container { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:20px; }
+.chart-container { position:relative; height:350px; }
+#avgFlowLineChartContainer { transition: height 0.4s; height:250px; }
+.table-container { max-height:400px; overflow:auto; }
+</style>
+</head>
+<body>
+<div class="container-fluid p-3">
+
+<h2 class="mb-3">Honeypot Dashboard</h2>
+
+<div class="card-container">
+<button class="btn btn-primary summary-btn" data-filter="ALL"><i class="fa fa-list"></i> Total</button>
+<button class="btn btn-success summary-btn" data-filter="BENIGN"><i class="fa fa-shield-check"></i> Benign</button>
+<button class="btn btn-danger summary-btn" data-filter="MALICIOUS"><i class="fa fa-skull-crossbones"></i> Malicious</button>
+<button class="btn btn-warning summary-btn" data-filter="AVG"><i class="fa fa-clock"></i> Avg Flow</button>
+</div>
+
+<div class="row mb-3">
+<div class="col-md-6 chart-container">
+<canvas id="flowBarChart"></canvas>
+</div>
+<div class="col-md-6 chart-container" id="avgFlowLineChartContainer">
+<canvas id="avgFlowLineChart"></canvas>
+</div>
+</div>
+
+<div class="table-container">
+<table id="packetTable" class="table table-bordered table-hover">
+<thead>
+<tr><th>Timestamp</th><th>Label</th><th>Protocol</th><th>SrcIP</th><th>SrcPort</th><th>DstIP</th><th>DstPort</th><th>FlowDuration</th></tr>
+</thead>
+<tbody></tbody>
+</table>
+</div>
+
+<div class="modal fade" id="detailModal" tabindex="-1">
+<div class="modal-dialog modal-dialog-centered">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title">Packet Details</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+</div>
+<div class="modal-body"><pre id="detailContent"></pre></div>
+</div></div></div>
+
+</div>
+
+<script>
+const PACKETS = JSON.parse(`[{"Timestamp": "2025-09-26 12:02:53.115597", "Label": "BENIGN", "Protocol": "TCP", "SrcIP": "10.140.201.188", "DstIP": "202.56.230.30", "SrcPort": 62740, "DstPort": 443, "FlowDuration": 0.002755}, {"Timestamp": "2025-09-26 12:02:55.116490", "Label": "BENIGN", "Protocol": "TCP", "SrcIP": "10.140.201.188", "DstIP": "202.56.230.30", "SrcPort": 62741, "DstPort": 443, "FlowDuration": 0.005476}, {"Timestamp": "2025-09-26 12:02:55.120314", "Label": "BENIGN", "Protocol": "TCP", "SrcIP": "10.140.201.188", "DstIP": "202.56.230.30", "SrcPort": 62742, "DstPort": 443, "FlowDuration": 0.005112}, {"Timestamp": "2025-09-26 12:02:55.465823", "Label": "BENIGN", "Protocol": "UDP", "SrcIP": "10.140.201.188", "DstIP": "78.130.183.28", "SrcPort": 6881, "DstPort": 26960, "FlowDuration": 0.004285}, {"Timestamp": "2025-09-26 12:02:55.734338", "Label": "BENIGN", "Protocol": "UDP", "SrcIP": "78.130.183.28", "DstIP": "10.140.201.188", "SrcPort": 26960, "DstPort": 6881, "FlowDuration": 0.002645}, {"Timestamp": "2025-09-26 12:02:56.131465", "Label": "BENIGN", "Protocol": "TCP", "SrcIP": "10.140.201.188", "DstIP": "202.56.230.30", "SrcPort": 62742, "DstPort": 443, "FlowDuration": 0.003802}, {"Timestamp": "2025-09-26 12:02:57.003680", "Label": "BENIGN", "Protocol": "TCP", "SrcIP": "10.140.201.188", "DstIP": "172.188.155.25", "SrcPort": 62636, "DstPort": 443, "FlowDuration": 0.005725}, {"Timestamp": "2025-09-26 12:02:57.114493", "Label": "BENIGN", "Protocol": "TCP", "SrcIP": "172.188.155.25", "DstIP": "10.140.201.188", "SrcPort": 443, "DstPort": 62636, "FlowDuration": 0.00121}, {"Timestamp": "2025-09-26 12:02:58.144671", "Label": "BENIGN", "Protocol": "TCP", "SrcIP": "10.140.201.188", "DstIP": "202.56.230.30", "SrcPort": 62742, "DstPort": 443, "FlowDuration": 0.003107}, {"Timestamp": "2025-09-26 12:03:00.121784", "Label": "BENIGN", "Protocol": "TCP", "SrcIP": "10.140.201.188", "DstIP": "202.56.230.30", "SrcPort": 62743, "DstPort": 443, "FlowDuration": 0.002667}, {"Timestamp": "2025-09-26 12:03:00.126257", "Label": "BENIGN", "Protocol": "UDP", "SrcIP": "10.140.201.188", "DstIP": "10.140.201.20", "SrcPort": 50848, "DstPort": 53, "FlowDuration": 0.005431}, {"Timestamp": "2025-09-26 12:03:00.126639", "Label": "BENIGN", "Protocol": "UDP", "SrcIP": "10.140.201.188", "DstIP": "10.140.201.20", "SrcPort": 63420, "DstPort": 53, "FlowDuration": 0.009061}, {"Timestamp": "2025-09-26 12:03:00.233897", "Label": "BENIGN", "Protocol": "UDP", "SrcIP": "10.140.201.20", "DstIP": "10.140.201.188", "SrcPort": 53, "DstPort": 63420, "FlowDuration": 0.001801}, {"Timestamp": "2025-09-26 12:03:00.234027", "Label": "BENIGN", "Protocol": "UDP", "SrcIP": "10.140.201.20", "DstIP": "10.140.201.188", "SrcPort": 53, "DstPort": 50848, "FlowDuration": 0.006673}, {"Timestamp": "2025-09-26 12:03:00.235141", "Label": "BENIGN", "Protocol": "TCP", "SrcIP": "10.140.201.188", "DstIP": "139.9.135.197", "SrcPort": 62744, "DstPort": 80, "FlowDuration": 0.009557}, {"Timestamp": "2025-09-26 12:03:00.471574", "Label": "BENIGN", "Protocol": "UDP", "SrcIP": "10.140.201.188", "DstIP": "174.114.83.127", "SrcPort": 6881, "DstPort": 6881, "FlowDuration": 0.003543}, {"Timestamp": "2025-09-26 12:03:00.530770", "Label": "BENIGN", "Protocol": "TCP", "SrcIP": "20.42.65.85", "DstIP": "10.140.201.188", "SrcPort": 443, "DstPort": 62650, "FlowDuration": 0.003003}, {"Timestamp": "2025-09-26 12:03:00.536568", "Label": "BENIGN", "Protocol": "TCP", "SrcIP": "139.9.135.197", "DstIP": "10.140.201.188", "SrcPort": 80, "DstPort": 62744, "FlowDuration": 0.002636}, {"Timestamp": "2025-09-26 12:03:00.536731", "Label": "BENIGN", "Protocol": "TCP", "SrcIP": "10.140.201.188", "DstIP": "139.9.135.197", "SrcPort": 62744, "DstPort": 80, "FlowDuration": 0.008474}, {"Timestamp": "2025-09-26 12:03:00.536969", "Label": "BENIGN", "Protocol": "TCP", "SrcIP": "10.140.201.188", "DstIP": "139.9.135.197", "SrcPort": 62744, "DstPort": 80, "FlowDuration": 0.019235}, {"Timestamp": "2025-09-26 12:03:00.907159", "Label": "BENIGN", "Protocol": "TCP", "SrcIP": "139.9.135.197", "DstIP": "10.140.201.188", "SrcPort": 80, "DstPort": 62744, "FlowDuration": 0.002838}, {"Timestamp": "2025-09-26 12:03:00.907265", "Label": "BENIGN", "Protocol": "TCP", "SrcIP": "10.140.201.188", "DstIP": "139.9.135.197", "SrcPort": 62744, "DstPort": 80, "FlowDuration": 0.010758}, {"Timestamp": "2025-09-26 12:03:00.920447", "Label": "BENIGN", "Protocol": "UDP", "SrcIP": "174.114.83.127", "DstIP": "10.140.201.188", "SrcPort": 6881, "DstPort": 6881, "FlowDuration": 0.005671}, {"Timestamp": "2025-09-26 12:03:01.409106", "Label": "BENIGN", "Protocol": "UDP", "SrcIP": "10.140.201.188", "DstIP": "10.140.201.20", "SrcPort": 62243, "DstPort": 53, "FlowDuration": 0.002763}, {"Timestamp": "2025-09-26 12:03:01.411953", "Label": "BENIGN", "Protocol": "UDP", "SrcIP": "10.140.201.188", "DstIP": "10.140.201.20", "SrcPort": 64484, "DstPort": 53, "FlowDuration": 0.005902}, {"Timestamp": "2025-09-26 12:03:01.412375", "Label": "BENIGN", "Protocol": "UDP", "SrcIP": "10.140.201.188", "DstIP": "10.140.201.20", "SrcPort": 61273, "DstPort": 53, "FlowDuration": 0.010482}, {"Timestamp": "2025-09-26 12:03:01.777086", "Label": "BENIGN", "Protocol": "UDP", "SrcIP": "10.140.201.20", "DstIP": "10.140.201.188", "SrcPort": 53, "DstPort": 64484, "FlowDuration": 0.013774}, {"Timestamp": "2025-09-26 12:03:01.778459", "Label": "BENIGN", "Protocol": "UDP", "SrcIP": "10.140.201.20", "DstIP": "10.140.201.188", "SrcPort": 53, "DstPort": 61273, "FlowDuration": 0.024404}, {"Timestamp": "2025-09-26 12:03:03.206215", "Label": "BENIGN", "Protocol": "TCP", "SrcIP": "10.140.201.188", "DstIP": "104.208.16.92", "SrcPort": 62631, "DstPort": 443, "FlowDuration": 0.002877}, {"Timestamp": "2025-09-26 12:03:03.569409", "Label": "BENIGN", "Protocol": "TCP", "SrcIP": "104.208.16.92", "DstIP": "10.140.201.188", "SrcPort": 443, "DstPort": 62631, "FlowDuration": 0.003174}, {"Timestamp": "2025-09-26 12:03:05.479020", "Label": "BENIGN", "Protocol": "UDP", "SrcIP": "10.140.201.188", "DstIP": "185.92.189.149", "SrcPort": 6881, "DstPort": 12100, "FlowDuration": 0.003033}, {"Timestamp": "2025-09-26 12:03:05.850183", "Label": "BENIGN", "Protocol": "UDP", "SrcIP": "185.92.189.149", "DstIP": "10.140.201.188", "SrcPort": 12100, "DstPort": 6881, "FlowDuration": 0.00224}, {"Timestamp": "2025-09-26 12:03:10.492596", "Label": "BENIGN", "Protocol": "UDP", "SrcIP": "10.140.201.188", "DstIP": "5.79.78.96", "SrcPort": 6881, "DstPort": 61299, "FlowDuration": 0.004116}, {"Timestamp": "2025-09-26 12:03:10.554359", "Label": "BENIGN", "Protocol": "TCP", "SrcIP": "10.140.201.188", "DstIP": "202.56.230.30", "SrcPort": 62745, "DstPort": 80, "FlowDuration": 0.001855}, {"Timestamp": "2025-09-26 12:03:10.921999", "Label": "BENIGN", "Protocol": "UDP", "SrcIP": "5.79.78.96", "DstIP": "10.140.201.188", "SrcPort": 61299, "DstPort": 6881, "FlowDuration": 0.001335}, {"Timestamp": "2025-09-26 12:03:11.557802", "Label": "BENIGN", "Protocol": "TCP", "SrcIP": "10.140.201.188", "DstIP": "202.56.230.30", "SrcPort": 62745, "DstPort": 80, "FlowDuration": 0.005707}, {"Timestamp": "2025-09-26 12:03:13.569725", "Label": "BENIGN", "Protocol": "TCP", "SrcIP": "10.140.201.188", "DstIP": "202.56.230.30", "SrcPort": 62745, "DstPort": 80, "FlowDuration": 0.002784}, {"Timestamp": "2025-09-26 12:03:13.638378", "Label": "BENIGN", "Protocol": "TCP", "SrcIP": "208.103.161.2", "DstIP": "10.140.201.188", "SrcPort": 443, "DstPort": 62627, "FlowDuration": 0.002283}, {"Timestamp": "2025-09-26 12:03:13.639321", "Label": "BENIGN", "Protocol": "TCP", "SrcIP": "10.140.201.188", "DstIP": "208.103.161.2", "SrcPort": 62627, "DstPort": 443, "FlowDuration": 0.006339}, {"Timestamp": "2025-09-26 12:03:13.754861", "Label": "BENIGN", "Protocol": "TCP", "SrcIP": "208.103.161.2", "DstIP": "10.140.201.188", "SrcPort": 443, "DstPort": 62627, "FlowDuration": 0.001644}, {"Timestamp": "2025-09-26 12:03:14.818711", "Label": "MALICIOUS", "Protocol": "TCP", "SrcIP": "208.103.161.2", "DstIP": "10.140.201.188", "SrcPort": 443, "DstPort": 62627, "FlowDuration": 0.002453}, {"Timestamp": "2025-09-26 12:03:14.818711", "Label": "BENIGN", "Protocol": "TCP", "SrcIP": "208.103.161.2", "DstIP": "10.140.201.188", "SrcPort": 443, "DstPort": 62627, "FlowDuration": 0.007851}, {"Timestamp": "2025-09-26 12:03:14.818854", "Label": "MALICIOUS", "Protocol": "TCP", "SrcIP": "10.140.201.188", "DstIP": "208.103.161.2", "SrcPort": 62627, "DstPort": 443, "FlowDuration": 0.01413}, {"Timestamp": "2025-09-26 12:03:14.819950", "Label": "BENIGN", "Protocol": "TCP", "SrcIP": "10.140.201.188", "DstIP": "208.103.161.2", "SrcPort": 62627, "DstPort": 443, "FlowDuration": 0.021045}, {"Timestamp": "2025-09-26 12:03:14.926185", "Label": "MALICIOUS", "Protocol": "TCP", "SrcIP": "208.103.161.2", "DstIP": "10.140.201.188", "SrcPort": 443, "DstPort": 62627, "FlowDuration": 0.001808}, {"Timestamp": "2025-09-26 12:03:15.506506", "Label": "BENIGN", "Protocol": "UDP", "SrcIP": "10.140.201.188", "DstIP": "144.76.175.153", "SrcPort": 6881, "DstPort": 28958, "FlowDuration": 0.004473}, {"Timestamp": "2025-09-26 12:03:15.567687", "Label": "BENIGN", "Protocol": "TCP", "SrcIP": "10.140.201.188", "DstIP": "202.56.230.30", "SrcPort": 62749, "DstPort": 80, "FlowDuration": 0.001254}, {"Timestamp": "2025-09-26 12:03:15.568499", "Label": "BENIGN", "Protocol": "TCP", "SrcIP": "10.140.201.188", "DstIP": "202.56.230.30", "SrcPort": 62750, "DstPort": 80, "FlowDuration": 0.005391}, {"Timestamp": "2025-09-26 12:03:15.889316", "Label": "BENIGN", "Protocol": "UDP", "SrcIP": "144.76.175.153", "DstIP": "10.140.201.188", "SrcPort": 28958, "DstPort": 6881, "FlowDuration": 0.002223}, {"Timestamp": "2025-09-26 12:03:16.569121", "Label": "BENIGN", "Protocol": "TCP", "SrcIP": "10.140.201.188", "DstIP": "202.56.230.30", "SrcPort": 62750, "DstPort": 80, "FlowDuration": 0.002752}]`);
+const tableBody = document.querySelector('#packetTable tbody');
+const avgContainer = document.getElementById('avgFlowLineChartContainer');
+
+function renderTable(filter="ALL") {
+    tableBody.innerHTML = "";
+    if(filter==="AVG") {
+        avgContainer.style.height = "400px";
+        return;
+    } else {
+        avgContainer.style.height = "250px";
+    }
+    PACKETS.forEach(p => {
+        if(filter!=="ALL" && p.Label!==filter) return;
+        const row = document.createElement('tr');
+        row.className = p.Label==='BENIGN'?'benign-row':'malicious-row';
+        row.innerHTML = `<td>${p.Timestamp}</td><td>${p.Label}</td><td>${p.Protocol}</td><td>${p.SrcIP}</td><td>${p.SrcPort}</td><td>${p.DstIP}</td><td>${p.DstPort}</td><td>${p.FlowDuration}</td>`;
+        row.addEventListener('click',()=>{ 
+            document.getElementById('detailContent').innerText = JSON.stringify(p,null,2);
+            new bootstrap.Modal(document.getElementById('detailModal')).show();
+        });
+        tableBody.appendChild(row);
+    });
+}
+
+function renderCharts() {
+    const times = PACKETS.map(p=>p.Timestamp);
+    const benignData = PACKETS.map(p=>p.Label==='BENIGN'?1:0);
+    const maliciousData = PACKETS.map(p=>p.Label==='MALICIOUS'?1:0);
+    const avgFlowData = PACKETS.map(p=>Number(p.FlowDuration));
+
+    new Chart(document.getElementById('flowBarChart').getContext('2d'), {
+        type:'bar',
+        data:{
+            labels:times,
+            datasets:[
+                { label:'Benign', data:benignData, backgroundColor:'rgba(29,199,155,0.6)' },
+                { label:'Malicious', data:maliciousData, backgroundColor:'rgba(255,99,132,0.6)' }
+            ]
+        },
+        options:{ responsive:true, scales:{ x:{ display:false }, y:{ beginAtZero:true, ticks:{ stepSize:1 } } } }
+    });
+
+    new Chart(document.getElementById('avgFlowLineChart').getContext('2d'), {
+        type:'line',
+        data:{
+            labels:times,
+            datasets:[{
+                label:'Flow Duration (s)',
+                data:avgFlowData,
+                borderColor:'orange',
+                backgroundColor:'rgba(255,165,0,0.2)',
+                fill:true,
+                tension:0.3
+            }]
+        },
+        options:{ responsive:true, scales:{ x:{ display:false } } }
+    });
+}
+
+document.querySelectorAll('.summary-btn').forEach(btn=>btn.addEventListener('click',()=>renderTable(btn.dataset.filter)));
+
+renderCharts();
+renderTable();
+</script>
+</body>
+</html>
